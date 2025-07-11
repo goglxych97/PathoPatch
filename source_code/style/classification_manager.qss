@@ -1,0 +1,48 @@
+/* Select 버튼 스타일 */
+QPushButton#selectButton {
+    background-color: rgb(0, 120, 212);
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0px;
+    border: none;
+}
+
+/* Select 버튼 비활성화 스타일 */
+QPushButton#selectButton:disabled {
+    background-color: gray;
+    color: white;
+}
+
+/* 텍스트 필드 스타일 */
+QTextEdit {
+    background-color: white;
+    color: black;
+    padding-top: 6px;
+}
+
+QTextEdit:disabled {
+    background-color: lightgray;
+    color: gray;
+}
+
+/* X 버튼 스타일 */
+QPushButton#deleteButton {
+    background-color: rgb(237, 106, 94);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+QPushButton#selectButton {
+    background-color: rgb(0, 120, 212);
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 0px;
+    border: none;
+    border-radius: 4px;
+}
+
+QPushButton#selectButton:pressed {
+    background-color: rgb(0, 100, 180); /* 눌렀을 때 색상 */
+}

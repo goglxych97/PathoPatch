@@ -1,0 +1,31 @@
+QToolButton {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+QToolButton:hover {
+    background-color: #cccccc;
+}
+QMessageBox QPushButton {
+    margin-left: auto;
+    margin-right: auto;
+}
+QPushButton {
+    font-size: 12px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    color: black;
+}
+QPushButton:checked {
+    background-color: #0078d4;
+    color: white;
+}
+QPushButton:pressed {
+    background-color: #0078d4;
+    color: white;
+}
