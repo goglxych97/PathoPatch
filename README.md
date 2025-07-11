@@ -29,4 +29,7 @@ $ pip install PyQt5-tools
 $ pip install pandas
 ```
 
-You can create an executable file using PyInstaller on Windows and run the program without installing Python separately.
+### 5. Notes
+- Image files follow the naming format: Slide_{Slide_num}_top-{rank}_x_{x coord in WSI}_y_{y coord in WSI}_{prediction value}.png
+- You can create an executable file using PyInstaller on Windows and run the program.
+
