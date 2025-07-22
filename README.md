@@ -17,8 +17,9 @@ https://github.com/user-attachments/assets/d2db65e8-d5c9-46b0-b116-bc5154cf4ee0
 └── source_code  # Folder containing source code
 ```
 
-### 3. Dependencies
+### 3. Running in the Terminal
 ```bash
+$ git clone https://github.com/goglxych97/PathoPatch.git
 $ cd source_code
 $ python main.py
 ```
